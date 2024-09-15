@@ -11,7 +11,7 @@ def descompone(num):
   c=0 
   un=0
 
-  while(num>=1000):
+  while (num>=1000):
    un+=1
    num-=1000
 
@@ -29,9 +29,8 @@ def descompone(num):
 
   print("El numero tiene ",u," unidades , ",d," decenas, ",c," centenas, ",un,"unidades de mil")
 
-system("cls")
-descompone(2234)
-   
 
+descompone(4567)
+   
 
 
